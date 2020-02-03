@@ -12,7 +12,7 @@ int main(int argc, char* args[])
   Uint32 frameStart;
   int frameTime;
 
-  Game::init("02022020", 0, 0, WINDOW_W, WINDOW_H, false);
+  Game::init("02022020", SDL_WINDOWPOS_CENTER, SDL_WINDOWPOS_CENTER, WINDOW_W, WINDOW_H, false);
 
   while (Game::isRunning())
   {
